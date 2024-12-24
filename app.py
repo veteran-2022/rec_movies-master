@@ -553,7 +553,8 @@ def show_comment():
                            comments=user_comment,
                            message=request.args.get('message')
                            )
-
+def hello_word():
+    print('test pull request')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
